@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px; /* Adjusted margin for smaller screens */
+}
+
+.registration-form {
+    max-width: 400px;
+    margin: 30 auto;
+    left: 822 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: indianred;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .registration-form {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .registration-form {
+        padding: 15px; /* Adjusted padding for smaller screens */
+    }
+}
+/* Add this code to your existing CSS */
+
+/* For large screens (desktops and laptops) */
+@media screen and (min-width: 768px) {
+    .menu a {
+        position: relative;
+        left: 0;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .data {
+        left: 20%;
+    }
+
+    .footer .social a {
+        font-size: 30px;
+        margin: 0 12px;
+    }
+}
+
+/* For medium screens (tablets) */
+@media screen and (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+
+    .menu a {
+        position: relative;
+        left: 0;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    .data {
+        left: 10%;
+    }
+}
+
+/* For small screens (phones) */
+@media screen and (max-width: 480px) {
+    .menu {
+        display: none;
+    }
+
+    .name {
+        font-size: 20px;
+        text-align: center;
+        left: 0;
+        top: 30%;
+        width: 100%;
+    }
+
+    .data {
+        left: 0;
+        top: 50%;
+    }
+
+    .data h1 {
+        width: 100%;
+    }
+
+    .data .c {
+        width: 90%;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+
+    .footer .social a {
+        font-size: 24px;
+        margin: 0 10px;
+    }
+
+    .footer ul li {
+        padding: 0 10px;
+    }
+
+    .footer cop {
+        font-size: 12px;
+    }
+
+    .footer p {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+}
+
